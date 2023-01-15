@@ -5,13 +5,125 @@
 }
 
 h1 {
+    font-size: 80px;
+    font-family: 'Anton', sans-serif, 'Passion One';
+}
+
+.missionStatement p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+ul, li, a{
+    display: inline;
+    margin: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+}    
+
+main {
+    height: 800px;
+    padding-top: 80px;
+    background-color: white;
+    background-image: url('photos/subtle_surface.png');
+    background-repeat: repeat;
 }
 
-p {
-    font-family: 'Courier New', Courier, monospace;
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#breakfast {
-    
+span { 
+    color: rgb(132, 199, 120);
+}
+
+.navItems {
+    margin-right: 80px;
+}
+
+nav p {
+    color: rgb(187, 2, 2);
+    font-size: 40px;
+    font-family: 'Anton', sans-serif, 'Passion One';
+    font-weight: 1000;
+    margin-left: 120px;
+}
+
+.options {
+    margin-left: 15px;
+    height: 100%;
+    width: 390px;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.breakfast {
+    background-image: url("photos/apple-breakfast-quinoa-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lunch {
+    background-image: url("photos/pasta-salad-recipe-for-lunch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dinner {
+    background-image: url("photos/shrimp_rice.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.missionStatement {
+    margin-left: 40px;
+    height: 100%;
+    margin-right: 40px;
+    width: 360px;
+}
+
+.Container p {
+    font-family: 'Nunito', sans-serif;
+}
+
+#browse {
+    font-weight: 500;
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.options p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p.green {
+    background-color: rgb(132, 199, 120);
+    width: 50%;
+    text-align: end;
+    padding: 20px 20px 20px 0;
+}
+
+p.white {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.Container {
+    display: flex;
+    height: 620px;
+    width: 90%;
+    margin: 50px 80px;
 }
